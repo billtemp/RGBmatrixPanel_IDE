@@ -49,8 +49,8 @@ BSD license, all text above must be included in any redistribution.
 #if defined(SPARK)
   #define pgm_read_byte(addr) (*(const uint8_t *)(addr))
   
-  #define R1	D0		// bit 2 = RED 1
-  #define G1	D1		// bit 3 = GREEN 1
+  #define R1	D1		// bit 2 = RED 1
+  #define G1	D0		// bit 3 = GREEN 1
   #define B1	D2		// bit 4 = BLUE 1
   #define R2	D3		// bit 5 = RED 2
   #define G2	D4		// bit 6 = GREEN 2
